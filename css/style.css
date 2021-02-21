@@ -1,0 +1,122 @@
+html{
+    scroll-behavior: smooth;
+    overflow-y: scroll !important;
+    -webkit-overflow-scrolling: touch;
+}
+
+.header{
+    position: fixed;
+    z-index: 2001;
+}
+.nav{
+    padding: 10px;
+}
+
+.nav ul li a{
+    padding: 5px 10px;
+    margin: 5px;
+    text-decoration: none;
+    color: #000000;
+}
+li{
+    list-style: none;
+}
+
+.tag:hover{
+    background-color: #16b0df;
+    transition: 1s;
+}
+
+a.tag.home.active{
+    background-color: #16b0df;
+}
+a.tag.about.active{
+    background-color: #16b0df;
+}
+a.tag.services.active{
+    background-color: #16b0df;
+}
+a.tag.blog.active{
+    background-color: #16b0df;
+}
+
+a{
+    text-decoration: none;
+}
+a.home.tag-ph.active{
+    background-color:  #16b0df;
+    padding: 3% 30%;
+}
+a.about.tag-ph.active{
+    background-color:  #16b0df;
+    padding: 3% 30%;
+}
+a.services.tag-ph.active{
+    background-color:  #16b0df;
+    padding: 3% 30%;
+}
+a.blog.tag-ph.active{
+    background-color:  #16b0df;
+    padding: 3% 30%;
+}
+
+
+
+
+
+.header-ph{
+    background-color: #f4f4f4;
+    position: fixed;
+    z-index: 2005;
+    width: 30vh;
+    height: 100vh;
+    right: -100%;
+}
+
+
+
+.tag-ph{
+    color: #000000;
+}
+
+.tag-ph:hover{
+    text-decoration: none;
+    color: #000000;
+}
+
+.tag-ph-li{
+    padding: 5px 0;
+    margin: 10px 0;
+}
+
+/*Apply styles after scroll*/
+.scrolling-active{
+    background-color: #dbdbdb;
+    box-shadow: 0 3px 1rem rgba(0,0,0,.1);
+    transition: 1s;
+}
+
+.scrolling-active nav ul li a{
+    color: #313131;
+}
+
+/*Apply styles after scroll end*/
+
+
+@media screen and (max-width: 576px){
+    .tag{
+        display: none;
+    }
+    .nav{
+        padding: 5px;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .tag{
+        display: none;
+    }
+    .nav{
+        padding: 5px;
+    }
+}

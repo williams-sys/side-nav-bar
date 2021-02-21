@@ -26,7 +26,7 @@ li{
     background-color: #16b0df;
     transition: 1s;
 }
-
+/*pc active start*/
 a.tag.home.active{
     background-color: #16b0df;
 }
@@ -39,28 +39,39 @@ a.tag.services.active{
 a.tag.blog.active{
     background-color: #16b0df;
 }
+/*pc active end*/
 
 a{
     text-decoration: none;
 }
+
+a.home.tag-ph{
+    padding: 6px 60px;
+}
+a.about.tag-ph{
+    padding: 6px 60px;
+}
+a.services.tag-ph{
+    padding: 6px 60px;
+}
+a.blog.tag-ph{
+    padding: 6px 60px;
+}
+
+/*ph active start*/
 a.home.tag-ph.active{
     background-color:  #16b0df;
-    padding: 3% 30%;
 }
 a.about.tag-ph.active{
     background-color:  #16b0df;
-    padding: 3% 30%;
 }
 a.services.tag-ph.active{
     background-color:  #16b0df;
-    padding: 3% 30%;
 }
 a.blog.tag-ph.active{
     background-color:  #16b0df;
-    padding: 3% 30%;
 }
-
-
+/*ph active end*/
 
 
 
@@ -72,8 +83,6 @@ a.blog.tag-ph.active{
     height: 100vh;
     right: -100%;
 }
-
-
 
 .tag-ph{
     color: #000000;
@@ -99,7 +108,6 @@ a.blog.tag-ph.active{
 .scrolling-active nav ul li a{
     color: #313131;
 }
-
 /*Apply styles after scroll end*/
 
 

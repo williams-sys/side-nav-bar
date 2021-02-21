@@ -21,11 +21,6 @@ window.addEventListener("scroll", () => {
 });
 //active on scrolling end
 
-
-
-
-
-
 //side bar toggle function start
 $(".show-sidebar-btn").click(function () {
     $(".header-ph").animate({right:0});
@@ -53,9 +48,10 @@ $(".blog").click(function () {
 });
 //side bar to normal end
 
-
+//change nav start
 window.addEventListener('scroll', function () {
     let header = document.querySelector('nav');
     let windowPosition = window.scrollY > 500;
     header.classList.toggle('scrolling-active', windowPosition);
 })
+//change nav end

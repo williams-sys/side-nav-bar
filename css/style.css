@@ -100,7 +100,8 @@ a.blog.tag-ph.active{
 
 /*Apply styles after scroll*/
 .scrolling-active{
-    background-color: #dbdbdb;
+    background-color: #dbdbdba6;
+    backdrop-filter: blur(5px);
     box-shadow: 0 3px 1rem rgba(0,0,0,.1);
     transition: 1s;
 }
